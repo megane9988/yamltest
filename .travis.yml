@@ -1,6 +1,9 @@
-language: node_js
-node_js:
-  - node
-  - lts/*
+language: php
+php:
+ - 7.4
 
-// test
+before_script:
+ - composer install
+
+script:
+ - phpunit tests/
