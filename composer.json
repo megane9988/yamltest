@@ -1,0 +1,12 @@
+{
+    "name": "9988megane/yamltest",
+    "authors": [
+        {
+            "name": "megane9988",
+            "email": "info@m-g-n.me"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
